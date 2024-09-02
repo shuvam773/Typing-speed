@@ -75,6 +75,9 @@ background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(40,88,92,1) 59%, rgba
 .content button:active{
     transform:scale(0.97);
 }
+.typing-text p{
+    height: 50px;
+}
 
 .typing-text p span{
     position: relative;
