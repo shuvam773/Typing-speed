@@ -15,16 +15,19 @@ background: linear-gradient(31deg, rgba(2,0,36,1) 0%, rgba(40,88,92,1) 59%, rgba
     
 }
 .wrapper{
-    width: 770px;
+    width: 870px;
+    height: 300px;
     padding: 35px;
     background: #fff;
     border-radius: 10px;
+    font-size: 25px;
     box-shadow: 0 10px 15px rgba(0,0,0,0.5);
 }
 .wrapper .content-box{
-    padding: 13px 20px 0;
+    padding: 50px 10px ;
+    height: 240px;
     border-radius: 10px;
-    border: 1px solid #bfbfbf;
+    border: 3px solid #bfbfbf;
 }
 .wrapper .input-field{
     padding: 12px 20px 0;

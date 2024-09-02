@@ -15,7 +15,7 @@ let mistake = 0;
 let isTyping =false;
 
 function loadParagraph(){
-    const paragraph = ["Believe you can and you're halfway there.","Success is not final, failure is not fatal: it is the courage to continue that counts.","We can't help everyone, but everyone can help someone.","The only way to do great work is to love what you do.","Be the change you wish to see in the world.","It does not matter how slowly you go as long as you do not stop.","The only true wisdom is in knowing you know nothing.","In three words I can sum up everything I've learned about life: it goes on.","If you want to go fast, go alone. If you want to go far, go together."];
+    const paragraph = ["Shuvam Kumar","Believe you can and you're halfway there.","Success is not final, failure is not fatal: it is the courage to continue that counts.","We can't help everyone, but everyone can help someone.","The only way to do great work is to love what you do.","Be the change you wish to see in the world.","It does not matter how slowly you go as long as you do not stop.","The only true wisdom is in knowing you know nothing.","In three words I can sum up everything I've learned about life: it goes on.","If you want to go fast, go alone. If you want to go far, go together."];
 
     const randomIndex= Math.floor(Math.random()*paragraph.length)
     typingText.innerHTML='';
@@ -85,7 +85,7 @@ function reset(){
     input.value = '';
     charIndex = 0;
     mistake = 0;
-    isTiping = false;
+    isTyping = false;
     wpm.innerText=0;
     cpm.innerText=0
     mistakes.innerText = 0;
